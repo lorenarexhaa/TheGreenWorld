@@ -198,3 +198,38 @@ input{
 label{
     color:  rgb(19, 193, 48);
 }
+#phoneNumber{
+    color: rgb(19, 193, 48);
+}
+
+.nextBtn{
+    color: rgb(19, 193, 48);
+    text-decoration: none;
+}
+
+.arrows{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Arrows{
+    position: relative;
+    top: 70px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.validation{
+    color:rgb(19, 193, 48);
+    width: fit-content;
+    padding: 1rem;
+    position: relative;
+    left: 170px;
+    background-color: black;
+    border: 3px solid rgb(19, 193, 48);
+    border-radius: 5px;
+}
