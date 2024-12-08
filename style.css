@@ -1,218 +1,24 @@
-*{
-    box-sizing:center;
-    margin:0 ;
-    padding: 0;
-    font-family: sans-serif;
-   
-    .masonry {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: collapse;
-        gap: 1rem;
-      }
+body {
+    margin: 0;
+background-color:black ;
 
-.navbar{
-    background: #1e3d21;
-    height: 100px;
+
+}
+
+.up {
+    background-color: black;
     display: flex;
-    justify-content:center;
-    align-items: center;
-    font-size: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: index 999;;
+    justify-content: space-between;
+    padding-right: 20px;
 }
 
-.navbar_cls1{
+.content {
+    color: white;
     display: flex;
-    justify-content:space-between;
-    height: 80px;
-    z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding:0 50px;
-
-}
-.navbar_logo{
-background: color rgb(138, 211, 138);
-background-image: linear-gradient(to top , #ff0844 0%, #ffb199 100%);
-background-size: 100%;
--webkit-text-fill-color: transparent;
--moz-text-fill-color: transparent;
-display:flex;
-align-items: center;
-cursor:pointer;
-text-decoration: none;
-font-size:2rem;
-
-}
-
-.fa-gem{
-    margin-right: 0.5rem;
-}
-
-.navbar_menu{
-    display:flex;
-    align-items: center;
-    list-style: none;
-    text-align: center;
-}
-
-.navbar_item{
-    height:80px;
-}
-
-.navbar_links{
-    color:rgb(138, 212, 138);
-    display:flex;
+    padding: 1rem;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    padding: 0 1rem;
-    height: 100%;
-}
-
-.navbar_btn{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding: 0 1rem;
-    width:100%;
-}
-
-.button{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-decoration: none;
-    padding: 10px 20px;
-    height: 100%;
-    width:100%;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background: rgb(101, 206, 115);
-    color:rgb(5, 26, 5);
-
-}
-
-.button:hover{
-    background: #46916e;
-    transition:all 0.3s ease;
-
-}
-
-.navbar_links:hover{
-    color:#46916e;
-    transition: all 0.3s ease;
-}
-
-@media screen and (max-width:960px){
-    .navbar_cls1{
-        display: flex;
-        justify-content: space-between;
-        height:80px;
-        z-index:1;
-        width:100%;
-        max-width:1300px;
-        padding:0;
-    }
-}
-
-.navbar_menu{
-    display:grid;
-    margin: 0;
-    width: 100%;
-    position: absolute;
-    top:-1000px;
-    opacity:0;
-    transition: all 0.5s ease;
-    height:50vh;
-    z-index:-1;
-    background: #5fe02c;
-
-}
-.navbar_menu.active{
-    background: #131313;
-    top: 100%;
-    opacity:1;
-    transition:all 0.5s ease;
-    z-index:99;
-    height:50vh;
-    font-size:1.6rem;
-}
-
-.navbar_logo{
-    padding-left:25px;
-}
-.navbar_toggle.bar{
-    width:25px;
-    height: 3px;
-    margin: 5px auto;
-    transition: #fff;
-}
-
-.navbar_item{
-    width: 100%;
-}
-
-.navbar_links{
-    text-align: center;
-    padding: 2rem;
-    width: 100%;
-    display: table;
-}
-
-#mobile-menu{
-    position: absolute;
-    top: 20%;
-    right: 5%;
-    transform: translate(5% ,20%);
-}
-.navbar_btn{
-    padding-bottom: 2rem;
-}
-
-.botton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 80px;
-    margin: 0;
-}
-
-.navbar_toggle.bar{
-    display: block;
-    cursor:pointer;
-
-}
-
-#mobile-menu.is-active.bar:nth-child(2){
-    opacity:0;
-
-}
-
-#mobile-menu.is-active.bar:nth-child(1){
-    transform: translate(8px) rotate(45deg);
-    
-}
-
-
-#mobile-menu.is-active.bar:nth-child(1){
-    transform: translate(-8px) rotate(-45deg);
-}
-
-.background{
-    width: 100px;
-    height: 100vh;
-    background-image: url(foto1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 
 }
 
