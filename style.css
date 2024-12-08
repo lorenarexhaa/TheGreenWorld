@@ -1,7 +1,7 @@
+
 body {
     margin: 0;
 background-color:black ;
-
 
 }
 
@@ -21,6 +21,7 @@ background-color:black ;
     text-decoration: none;
 
 }
+
 .search {
     background-color: transparent;
     width: 25rem;
@@ -63,7 +64,9 @@ background-color:black ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}.products {
+}
+
+.products {
     font-size: xx-large;
     text-decoration: none;
     color: white;
@@ -107,6 +110,7 @@ background-color:black ;
     align-items: center;
     color: white;
 }
+
 .ourServices {
     width: 20rem;
     border: 3px solid black;
@@ -154,6 +158,10 @@ background-color:black ;
     padding: 5rem;
 }
 
+.contactDiv:hover{
+    background-color: black;
+}
+
 input{
     color: white;
 }
@@ -163,13 +171,17 @@ label{
 .login{
 position: relative;
 left: 800px;
-top: -160px;
+top: -290px;
 display: flex;
 flex-direction: column;
 border: 2px solid rgb(19, 193, 48);
 border-radius: 10px;
 width: fit-content;
 padding: 3rem;
+}
+
+.login:hover{
+    background-color: black;
 }
 
 .contactBody{
@@ -198,6 +210,7 @@ input{
 label{
     color:  rgb(19, 193, 48);
 }
+
 #phoneNumber{
     color: rgb(19, 193, 48);
 }
