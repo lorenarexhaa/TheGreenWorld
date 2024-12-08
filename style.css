@@ -21,4 +21,89 @@ background-color:black ;
     text-decoration: none;
 
 }
+.search {
+    background-color: transparent;
+    width: 25rem;
+    height: 3rem;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: white;
+}
 
+.search:hover {
+    background: rgb(0, 255, 29);
+    background: linear-gradient(90deg, rgba(0, 255, 29, 1) 21%, rgba(38, 176, 174, 1) 44%, rgba(55, 196, 23, 1) 83%);
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.signUp {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    background: rgb(0, 255, 29);
+    background: linear-gradient(90deg, rgba(0, 255, 29, 1) 21%, rgba(38, 176, 174, 1) 44%, rgba(55, 196, 23, 1) 83%);
+    border-radius: 10px;
+    color: white;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    background-image: url(https://i.pinimg.com/736x/44/fe/9c/44fe9c042f39281f4545b60e77c7e38e.jpg);
+    background-color: rgba(0, 0, 0, 0.734);
+    background-blend-mode: color;
+    height: 100vh;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}.products {
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+}
+
+.products:hover {
+    color: green;
+}
+
+.allProducts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 55px;
+}
+
+.greens {
+    width: 15rem;
+}
+
+.text {
+    position: relative;
+    right: -650px;
+    color: white;
+}
+
+.Text {
+   
+    color: rgb(19, 193, 48);
+}
+
+
+.ourProducts {
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
